@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+data/raw/
+data/processed/*.jsonl
+outputs/checkpoints/
+outputs/smoke/
+outputs/*/launch_summary.json
+outputs/*.safetensors
+*.log
