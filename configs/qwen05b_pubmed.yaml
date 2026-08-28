@@ -1,0 +1,14 @@
+model: Qwen/Qwen2.5-0.5B
+domain_dataset: ncbi/pubmed
+domain_config: pubmed
+replay_dataset: HuggingFaceFW/fineweb-edu
+domain_ratio: 0.8
+max_domain_records: 200000
+max_replay_records: 50000
+max_seq_len: 2048
+learning_rate: 2.0e-5
+max_steps: 1000
+bf16: true
+strategy: full_parameter
+logit_anchor_weight: 0.0
+
