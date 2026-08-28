@@ -1,0 +1,8 @@
+{
+  "seed": 1337,
+  "domain_ratio": 0.8,
+  "dedup_threshold": 0.85,
+  "contamination_ngram": 4,
+  "min_chars": 40
+}
+
